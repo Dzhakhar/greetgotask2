@@ -1,5 +1,187 @@
-WARNING	?	pool-1-thread-1	2016-08-02T19:45:37.662Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
-SEVERE	?	pool-1-thread-1	2016-08-02T19:45:39.102Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+WARNING	?	pool-1-thread-1	2016-08-03T21:35:10.937Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:35:11.762Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:35:11.764Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:35:18.674Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$28(JavaLanguageServer.java:630)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:628)
+	at org.javacs.JavaLanguageServer.gotoDefinition(JavaLanguageServer.java:656)
+	at org.javacs.JavaLanguageServer$1.definition(JavaLanguageServer.java:117)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:144)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:35:18.675Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:35:19.386Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$28(JavaLanguageServer.java:630)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:628)
+	at org.javacs.JavaLanguageServer.gotoDefinition(JavaLanguageServer.java:656)
+	at org.javacs.JavaLanguageServer$1.definition(JavaLanguageServer.java:117)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:144)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:35:19.387Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:35:20.094Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$28(JavaLanguageServer.java:630)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:628)
+	at org.javacs.JavaLanguageServer.gotoDefinition(JavaLanguageServer.java:656)
+	at org.javacs.JavaLanguageServer$1.definition(JavaLanguageServer.java:117)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:144)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:35:20.095Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:35:20.549Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.lambda$findSymbol$28(JavaLanguageServer.java:630)
+	at java.util.Optional.flatMap(Optional.java:241)
+	at org.javacs.JavaLanguageServer.findSymbol(JavaLanguageServer.java:628)
+	at org.javacs.JavaLanguageServer.gotoDefinition(JavaLanguageServer.java:656)
+	at org.javacs.JavaLanguageServer$1.definition(JavaLanguageServer.java:117)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:144)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:35:20.550Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+INFO	?	pool-1-thread-1	2016-08-03T21:35:21.930Z	org.javacs.JavaLanguageServer#doLint	Lint /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:35:21.932Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:292)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:25)
+	at org.javacs.JavaLanguageServer$1.didSave(JavaLanguageServer.java:232)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:223)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:213)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:35:21.933Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:35:23.124Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:35:23.125Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:35:23.633Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:35:23.634Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:43:58.128Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
 org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
 	at java.util.Optional.orElseThrow(Optional.java:290)
@@ -19,8 +201,8 @@ org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakh
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-WARNING	?	pool-1-thread-1	2016-08-02T19:45:39.102Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
-SEVERE	?	pool-1-thread-1	2016-08-02T19:45:47.633Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+WARNING	?	pool-1-thread-1	2016-08-03T21:43:58.129Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:43:58.790Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
 org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
 	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
 	at java.util.Optional.orElseThrow(Optional.java:290)
@@ -40,4 +222,174 @@ org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakh
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
 
-WARNING	?	pool-1-thread-1	2016-08-02T19:45:47.634Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+WARNING	?	pool-1-thread-1	2016-08-03T21:43:58.791Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:43:59.367Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.autocomplete(JavaLanguageServer.java:866)
+	at org.javacs.JavaLanguageServer$1.completion(JavaLanguageServer.java:97)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:136)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:43:59.367Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:44:00.988Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.autocomplete(JavaLanguageServer.java:866)
+	at org.javacs.JavaLanguageServer$1.completion(JavaLanguageServer.java:97)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:136)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:44:00.989Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:44:02.675Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.autocomplete(JavaLanguageServer.java:866)
+	at org.javacs.JavaLanguageServer$1.completion(JavaLanguageServer.java:97)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:136)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:44:02.676Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:44:03.135Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.autocomplete(JavaLanguageServer.java:866)
+	at org.javacs.JavaLanguageServer$1.completion(JavaLanguageServer.java:97)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:136)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:44:03.136Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+INFO	?	pool-1-thread-1	2016-08-03T21:44:03.863Z	org.javacs.JavaLanguageServer#doLint	Lint /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T21:44:03.864Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doLint(JavaLanguageServer.java:292)
+	at org.javacs.JavaLanguageServer.access$400(JavaLanguageServer.java:25)
+	at org.javacs.JavaLanguageServer$1.didSave(JavaLanguageServer.java:232)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:223)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:213)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T21:44:03.865Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T23:50:51.058Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T23:50:51.359Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T23:50:55.506Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.autocomplete(JavaLanguageServer.java:866)
+	at org.javacs.JavaLanguageServer$1.completion(JavaLanguageServer.java:97)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:136)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T23:50:55.507Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+SEVERE	?	pool-1-thread-1	2016-08-03T23:51:10.780Z	org.javacs.Main#lambda$run$0	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+org.javacs.NoJavaConfigException: Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java
+	at org.javacs.JavaLanguageServer.lambda$findCompiler$21(JavaLanguageServer.java:444)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.javacs.JavaLanguageServer.findCompiler(JavaLanguageServer.java:444)
+	at org.javacs.JavaLanguageServer.doHover(JavaLanguageServer.java:776)
+	at org.javacs.JavaLanguageServer$1.hover(JavaLanguageServer.java:107)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter._doAccept(LanguageServerToJsonAdapter.xtend:140)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.doAccept(LanguageServerToJsonAdapter.xtend:127)
+	at io.typefox.lsapi.services.json.LanguageServerToJsonAdapter.accept(LanguageServerToJsonAdapter.xtend:124)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol.handleMessage(LanguageServerProtocol.xtend:79)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.handleMessage(LanguageServerProtocol.xtend:284)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:220)
+	at io.typefox.lsapi.services.json.LanguageServerProtocol$IOHandler.run(LanguageServerProtocol.xtend:180)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+WARNING	?	pool-1-thread-1	2016-08-03T23:51:10.780Z	org.javacs.JavaLanguageServer#onError	Can't find configuration file for /home/dzhakhar/workspace/greetgo/mavenTest/greetGoTask/src/main/java/dbmanage/StudentInsert.java

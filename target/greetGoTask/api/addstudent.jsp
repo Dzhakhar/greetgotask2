@@ -1,2 +1,6 @@
 <jsp:useBean id="Student" class="dbmanage.StudentInsert"/>
-<% Student.insert(request.getParameter("name"), request.getParameter("surname"), request.getParameter("email")); %>
+<% String name = request.getParameter("name"); %>
+<% String surname = request.getParameter("surname"); %>
+<% String email = request.getParameter("email"); %>
+<%= name %>
+<%-- Student.insert(); --%>

@@ -1,22 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-	<typeAliases>
-		<!-- Instead of specifying the absolute class name everywhere, we can use typeAliases, a shorter name for a Java type.  -->
-		<typeAlias alias="class_alias_Name" type="absolute_class_Name"/>
-	</typeAliases>
 
-	<enviroments default="development">
-		<enviroment id="development">
+	<environments default="development">
+		<environment id="development">
 			<transactionManager type="JDBC"/>
-
 			<dataSource type="POOLED">
 				<property name="driver" value="com.mysql.jdbc.Driver"/>
 				<property name="url" value="jdbc:mysql://localhost:3306/school"/>
 				<property name="username" value="root"/>
 				<property name="password" value="q"/>
 			</dataSource>
-		</enviremont>
-	</enviroments>
+		</environment>
+	</environments>
 
 	<mappers>
 		<mapper resource="Student.xml"/>
